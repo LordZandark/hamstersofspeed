@@ -838,7 +838,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 8966924999882587776, guid: 50d40366b576ccf438d14c94670e1fb4, type: 3}
+    m_Reference: {fileID: -8002851101590779948, guid: 50d40366b576ccf438d14c94670e1fb4, type: 3}
   m_RotationInput:
     m_UseReference: 1
     m_Action:
@@ -850,7 +850,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -2831284335017570680, guid: 50d40366b576ccf438d14c94670e1fb4, type: 3}
+    m_Reference: {fileID: -6038965039319620808, guid: 50d40366b576ccf438d14c94670e1fb4, type: 3}
   m_TrackingStateInput:
     m_UseReference: 1
     m_Action:
@@ -862,7 +862,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -7957048384341279209, guid: 50d40366b576ccf438d14c94670e1fb4, type: 3}
+    m_Reference: {fileID: 2756247801613519799, guid: 50d40366b576ccf438d14c94670e1fb4, type: 3}
   m_PositionAction:
     m_Name: 
     m_Type: 0
