@@ -5,10 +5,10 @@
 .utmp/
 /hamsters-of-speed/Hamsters of Speed/Library/
 /hamsters-of-speed/Hamsters of Speed/Temp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
+/hamsters-of-speed/Hamsters of Speed/Obj/
+/hamsters-of-speed/Hamsters of Speed/Build/
+/hamsters-of-speed/Hamsters of Speed/Builds/
+/hamsters-of-speed/Hamsters of Speed/Logs/
 /[Uu]ser[Ss]ettings/
 *.log
 
