@@ -9,7 +9,7 @@
 /hamsters-of-speed/Hamsters of Speed/Build/
 /hamsters-of-speed/Hamsters of Speed/Builds/
 /hamsters-of-speed/Hamsters of Speed/Logs/
-/[Uu]ser[Ss]ettings/
+/hamsters-of-speed/Hamsters of Speed/UserSettings/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
