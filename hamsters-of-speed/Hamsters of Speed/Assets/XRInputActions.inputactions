@@ -1,0 +1,290 @@
+{
+    "name": "XRInputActions",
+    "maps": [
+        {
+            "name": "HMD",
+            "id": "71e6791b-d2ed-42a9-a3e1-757bdf3dd24b",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "380d3387-4676-4534-af65-088b50510467",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "b638fd08-5669-4e8b-8423-b56257221e5f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TrackingState",
+                    "type": "Value",
+                    "id": "2594165a-6b32-4898-9b6d-7a31898a2038",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CenterEyePosition",
+                    "type": "Value",
+                    "id": "de00c76d-8ecc-470c-8565-6024064afc2f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CenterEyeRotation",
+                    "type": "Value",
+                    "id": "2f54e121-70ea-45de-af72-20b9b33111a9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8b33a15f-5184-44e7-8adf-ac01199bba3b",
+                    "path": "<XRHMD>/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9e928af-598d-4119-853e-5f7bb1c96e2e",
+                    "path": "<XRHMD>/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6df1325f-f8e6-45a4-8d71-4c6684d46617",
+                    "path": "<XRHMD>/trackingState",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32b97061-e709-4302-a515-a19e2f118f75",
+                    "path": "<XRHMD>/centerEyePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CenterEyePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "743482fa-79cb-428a-8f68-63979c17fe31",
+                    "path": "<XRHMD>/centerEyeRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CenterEyeRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightController",
+            "id": "07571460-4e46-4011-805b-0bd4a4e143f7",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "48b031ab-1db3-48fc-9567-b1869cc9a9bc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "b4eafe3d-9632-41c1-87f4-0150e55904e4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TrackingState",
+                    "type": "Value",
+                    "id": "374bf26c-6129-4fcf-bfa2-0c95be79185a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Dash",
+                    "type": "Button",
+                    "id": "da79d517-cd12-4438-8390-36de6059dc73",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "6be6f675-f2b0-4b62-bb12-b9043b746af6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "07773556-05b7-4501-96d9-1a698656a2b7",
+                    "path": "<XRController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3434a0ad-47a5-4204-9e8f-2c0a30f4a065",
+                    "path": "<XRController>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "97577bf1-f353-4cfd-9b08-d28cbb0f8454",
+                    "path": "<XRController>{RightHand}/trackingState",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11193066-0635-45fa-b085-022494b17af5",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10c7dc9e-e360-4c39-84ed-468994e32b02",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "LeftController",
+            "id": "057c60d5-61fa-484f-b800-9d5b57e240e4",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "37e72360-1fe7-4852-b1bd-23b70c1699d7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "92fec8ae-c89f-4b23-bdfd-eaf3afbcbbb4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TrackingState",
+                    "type": "Value",
+                    "id": "5232877d-c919-450f-9d35-268d307aad01",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fe0b0689-c4b9-4a0c-8262-593c1e0309d8",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5042b7d8-ea82-40eb-8c3e-c123661b87e1",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b5c3a8ec-5bc9-4eff-85c0-4868fc94ac3d",
+                    "path": "<XRController>{LeftHand}/trackingState",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
