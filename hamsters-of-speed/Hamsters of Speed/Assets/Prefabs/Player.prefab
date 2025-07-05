@@ -791,7 +791,7 @@ MonoBehaviour:
   ballMesh: {fileID: 8324468928601110790}
   speedMultiplier: 300
   speedMax: 0
-  brakesFactor: 150
+  brakesFactor: 250
   moveDeadzone: 0.17
   dashButton: {fileID: -4004702496814173388, guid: 50d40366b576ccf438d14c94670e1fb4, type: 3}
   dashForce: 10
