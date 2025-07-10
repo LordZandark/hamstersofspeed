@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 598856032515284232}
   - component: {fileID: 911525862475937748}
   - component: {fileID: 3516743625220990141}
+  - component: {fileID: 559078046310342712}
   m_Layer: 0
   m_Name: MetalDoor1
   m_TagString: Untagged
@@ -268,6 +269,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.036000002, y: 0.0019999999, z: 0.032999992}
   m_Center: {x: 0, y: 0, z: 0.016499996}
+--- !u!111 &559078046310342712
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4714289541968332484}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 82836923af0778941a57bff37322e2ba, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 82836923af0778941a57bff37322e2ba, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1 &5491246108514977036
 GameObject:
   m_ObjectHideFlags: 0
