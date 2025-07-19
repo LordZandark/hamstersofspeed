@@ -10,7 +10,8 @@ public class BallLocomotion : MonoBehaviour
 
     public GameObject ballMesh;
 
-    private Rigidbody ballRb;
+    [System.NonSerialized]
+    public Rigidbody ballRb;
 
     public float speedMultiplier = 1f;
     public float speedMax;
@@ -34,7 +35,8 @@ public class BallLocomotion : MonoBehaviour
     private float speed;
     private Vector3 moveDirection;
 
-    bool isGrounded;
+    [System.NonSerialized]
+    public bool isGrounded;
 
     private void OnEnable()
     {
