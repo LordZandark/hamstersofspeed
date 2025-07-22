@@ -10,7 +10,8 @@ public class BallLocomotion : MonoBehaviour
 
     public GameObject ballMesh;
 
-    private Rigidbody ballRb;
+    [System.NonSerialized]
+    public Rigidbody ballRb;
 
     public float speedMultiplier = 1f;
     public float speedMax;
@@ -22,19 +23,22 @@ public class BallLocomotion : MonoBehaviour
     public InputActionReference dashButton;
     public float dashForce = 10;
     public float dashDelay = 5;
-    private bool dashReady = true;
+    [System.NonSerialized]
+    public bool dashReady = true;
 
     [Header("Jump")]
     public InputActionReference jumpButton;
     public float jumpForce = 10;
     public float jumpDelay = 10;
-    private bool jumpReady = true;
+    [System.NonSerialized]
+    public bool jumpReady = true;
 
     private float headDistance;
     private float speed;
     private Vector3 moveDirection;
 
-    bool isGrounded;
+    [System.NonSerialized]
+    public bool isGrounded;
 
     private void OnEnable()
     {
